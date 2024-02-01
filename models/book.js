@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 const bookSchema = new mongoose.Schema({
   title: {
@@ -6,7 +6,7 @@ const bookSchema = new mongoose.Schema({
     required: true
   },
   description: {
-    type: String,
+    type: String
   },
   publishDate: {
     type: Date,
